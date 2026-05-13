@@ -1,0 +1,22 @@
+{
+  "bed": {
+    "name": "Hospital Bed",
+    "description": "A standard hospital bed with adjustable frame, mattress, pillow and headboard. Used for patient rest and recovery. Built with efficient low-poly geometry optimized for web rendering."
+  },
+  "monitor": {
+    "name": "Patient Monitor",
+    "description": "A bedside patient monitor displaying vital signs including heart rate, blood pressure and oxygen levels. Features an emissive display screen and metallic stand."
+  },
+  "iv_stand": {
+    "name": "IV Stand",
+    "description": "An intravenous drip stand used to deliver fluids and medication to patients. Features a telescoping pole, hook arm, IV bag and wheeled tripod base."
+  },
+  "chair": {
+    "name": "Visitor Chair",
+    "description": "A comfortable visitor chair placed beside the patient bed. Features a padded seat, backrest and armrests with a lightweight metal frame."
+  },
+  "cabinet": {
+    "name": "Medical Cabinet",
+    "description": "A medical storage trolley with three drawers for storing supplies and equipment. Features a clean white finish, drawer handles and wheeled base for easy movement."
+  }
+}

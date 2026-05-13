@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About — Hospital Room 3D Viewer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css"/>
+  <style>
+    .about-section {
+      background-color: #16213e;
+      border-radius: 10px;
+      padding: 25px;
+      margin-bottom: 20px;
+    }
+    .about-section h4 {
+      color: #00cfff;
+      margin-bottom: 15px;
+      border-bottom: 1px solid #333;
+      padding-bottom: 8px;
+    }
+    .about-section p, .about-section li {
+      color: #cccccc;
+      line-height: 1.8;
+      font-size: 0.95rem;
+    }
+    .tech-badge {
+      background-color: #0f3460;
+      color: #00cfff;
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      margin: 4px;
+      display: inline-block;
+    }
+    .test-pass {
+      color: #00ff88;
+      font-weight: bold;
+    }
+    .test-fail {
+      color: #ff6666;
+      font-weight: bold;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th {
+      background-color: #0f3460;
+      color: #00cfff;
+      padding: 10px;
+      text-align: left;
+    }
+    td {
+      padding: 10px;
+      color: #cccccc;
+      border-bottom: 1px solid #333;
+      font-size: 0.9rem;
+    }
+    tr:hover td {
+      background-color: #1a2a4a;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-dark bg-dark px-4">
+    <span class="navbar-brand fw-bold">🏥 Hospital Room 3D Viewer</span>
+    <a href="index.html" class="btn btn-outline-light btn-sm">← Back to Viewer</a>
+  </nav>
+
+  <div class="container py-4">
+
+    <!-- TITLE -->
+    <div class="text-center mb-4">
+      <h2 style="color:#00cfff;">About This Project</h2>
+      <p style="color:#aaa;">A Web-Based Interactive 3D Hospital Room Viewer</p>
+    </div>
+
+    <!-- PROJECT OVERVIEW -->
+    <div class="about-section">
+      <h4>📋 Project Overview</h4>
+      <p>
+        This project is an interactive web-based 3D application that presents a virtual hospital room environment.
+        It was built as part of a web 3D application assignment, combining 3D modelling, interactive UI design,
+        and dynamic content loading to create an immersive viewer experience.
+      </p>
+      <p>
+        The application allows users to load individual 3D hospital room objects, manipulate the scene
+        through camera presets, control lighting, toggle wireframe mode, and trigger animations —
+        all through an intuitive web interface.
+      </p>
+    </div>
+
+    <!-- 3D MODELS -->
+    <div class="about-section">
+      <h4>🏗️ 3D Model Production</h4>
+      <p>
+        All 3D models were created from scratch using <strong style="color:#00cfff;">Blender</strong>,
+        a professional open-source 3D authoring tool. Each model was built using low-poly geometry
+        to ensure efficient rendering in the browser.
+      </p>
+      <p>The following models were produced:</p>
+      <ul>
+        <li><strong>Hospital Bed</strong> — built from cube and cylinder primitives with mattress, pillow and headboard components.</li>
+        <li><strong>Patient Monitor</strong> — screen body, emissive display face, stand and control panel.</li>
+        <li><strong>IV 
